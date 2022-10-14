@@ -1,0 +1,76 @@
+*{
+    box-sizing: unset;
+}
+
+body{
+    margin: 20px;
+    font-family: Righteous;
+    background-color: #E5E5E5;
+}
+
+header{
+    background: #CF2B2B;       
+    width: 414px;
+    height: 92px;
+    box-shadow: 0 4 4 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 1;
+    left: 1;   
+    z-index: 1;
+     
+}
+
+header div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    color: #FFFFFF;
+    margin-left: 21px;
+        
+}
+
+header div:nth-child(1) h1{
+    font-size: 44px;
+    font-weight: 400;
+}
+
+main{
+    position: relative;
+    top: 120px;
+    left: 0;
+    margin-left: 20px;   
+}
+
+main div:nth-child(1) > h2{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 400;    
+}
+
+.listaPratos{
+    display: flex;
+}
+
+
+.prato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    margin: 27px 15px 17px 0;    
+}
+
+.imgPrato{
+    margin-top: 17px;
+}
+
+.infoPrato{
+    margin: 8px 15px 0 15px;    
+    
+}
