@@ -1,13 +1,15 @@
+
 function escolherPrato(prato){
     
-    const verificaPrato = document.querySelector(".listaPratos .itemSelecionado");
-
+    const verificaPrato = document.querySelector(".listaPratos .itemSelecionado");    
+    const verificaCheck = document.querySelector('.pedido div');
     if (verificaPrato !== null){
-        verificaPrato.classList.remove("itemSelecionado");
+        verificaPrato.classList.remove("itemSelecionado");                  
     }
-
+   
     prato.classList.add("itemSelecionado");
-    
+    verificaCheck.classList.add("check");
+
     
 }
 
