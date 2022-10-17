@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Driven Eats</title>
 </head>
 <body>
@@ -25,7 +25,8 @@
                         <img src="/imagens/frango_yin_yang 1.png" >                    
                         <h1 data-test="food-title">Frango YIN YANG</h1>
                         <p>Um pouco de batata, <br>um pouco de salada</p>
-                        <h2 data-test="food-price">R$ 14,99</h2>                                              
+                        <h2 data-test="food-price">R$ 14,99</h2>    
+                                                                  
                     </button>
 
                     <button onclick="escolherPrato(this)" class="pedido" data-test="food-option">
@@ -107,7 +108,7 @@
                     
                         <h1 data-test="food-title">Pudim de leite</h1>
                         <p>Pudim de leite só</p>
-                        <h2 data-test="food-price">R$ 11,99</h2>
+                        <h2 data-test="food-price">R$ 11,99</h2>                        
                     </button>
                     <button onclick="escolherSobremesa(this)" class="pedido" data-test="food-option">
                         <img src="/imagens/pudim 1.png" >                
@@ -143,10 +144,10 @@
     </main>
 
     <footer>
-        <div>
-            <button data-test="finish-button">Selecione os 3 itens <br>
-                para fechar o pedido</button>
-        </div>
+        
+        <button data-test="finish-button" class="verficaBotao" >Selecione os 3 itens <br>
+            para fechar o pedido</button>
+        
     </footer>
     
     <div class="finalizar">
@@ -160,6 +161,6 @@
         </div>
     </div>
 
-    <script src="/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -134,8 +134,7 @@ main > div > h2{
     top: 88%;
     right: 9%;
     max-width: 15px;
-    max-height: 15px;
-    (imagens/Vector.png);
+    max-height: 15px;    
 }
 
 .pedido div{
@@ -152,6 +151,10 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+.itensSelecionados{
+    background: #32B72F;
 }
 
 .itemSelecionado{
