@@ -216,7 +216,7 @@ footer button{
     color: #FFFFFF;
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -227,17 +227,16 @@ footer button{
     text-align: center;
     color: #FFFFFF;
     border: none;
-    background:none;
+    background:none;   
+    margin-top: 10px;    
 }
 
 .total{
     font-family: Roboto;
     font-size: 22px;
-    font-weight: 700;
-    
-    color: #FFFFFF;
-    width: 329px;
-    margin-bottom: 24px ;
+    font-weight: 700;    
+    color: #FFFFFF;    
+    margin-bottom: 24px ;    
 
 }
 
@@ -252,4 +251,44 @@ footer button{
     border: none;
     border-radius: 100px;
 
+}
+
+.ajustarPedidos{
+    display: flex;    
+}
+
+.ajustarPedidos:first-child{
+    text-align: left;
+    width: 100%;
+}
+
+.ajustarPedidos:last-child{
+    text-align: right;
+    width: 100%;
+}
+
+.ajustaPedido{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 10px;      
+    color: #FFFFFF;
+    padding-right: 80px;
+}
+
+.totalTudo{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;    
+    color: #FFFFFF;    
+    margin-bottom: 24px ;
+}
+
+.ajustaValor{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;    
+    margin-bottom: 10px;
+    text-align: right;
+    color: #FFFFFF;
 }

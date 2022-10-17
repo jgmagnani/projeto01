@@ -146,10 +146,20 @@
     <div class="finalizar">
         <div class="cofirmarPedido">
             <h1>Confirme seu pedido</h1>
-            <h2 class="confPrato"></h2>
-            <h2 class="confBebida"></h2>
-            <h2 class="confSobremesa"></h2>
-            <h3 class="total">TOTAL</h3>
+            <Div class="ajustarPedidos">
+                <div>
+                    <h2 class="confPrato ajustaPedido"></h2>
+                    <h2 class="confBebida ajustaPedido"></h2>
+                    <h2 class="confSobremesa ajustaPedido"></h2>
+                    <h3 class="total">TOTAL</h3>
+                </div>                    
+                <div>
+                    <h2 class="valorPrato ajustaValor"></h2>
+                    <h2 class="valorBebida ajustaValor"></h2>
+                    <h2 class="valorSobremesa ajustaValor"></h2>
+                    <h3 class="totalTudo"></h3>
+                </div>
+            </Div>
             <button class="enviarPedido" onclick="enviarPedido()">Tudo certo, pode pedir!</button>
             <button class="cancelarPedido" onclick="cancelarPedido()">Cancelar</button>
         </div>
